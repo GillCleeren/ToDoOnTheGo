@@ -18,6 +18,10 @@ namespace ToDoOnTheGo
         public MainPage()
         {
             InitializeComponent();
+
+            NewToDoItem = new ToDoItem();
+
+            this.BindingContext = NewToDoItem;
         }
     }
 }

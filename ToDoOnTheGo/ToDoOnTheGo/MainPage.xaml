@@ -7,9 +7,10 @@
              x:Class="ToDoOnTheGo.MainPage">
 
     <StackLayout>
-       
-        
-        
+
+        <Label Text="Description"></Label>
+        <Entry Text="{Binding Description}"></Entry>
+
     </StackLayout>
 
 </ContentPage>
